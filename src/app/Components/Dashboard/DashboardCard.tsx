@@ -4,6 +4,7 @@ import Preview from "../Invoice/Preview";
 import Invoice from "../invoicecreate/Invoice";
 import Tempaltes from "../Templates/Tempaltes";
 import InvoiceList from "../InvoiceList/InvoiceList";
+import TemplateElement from "../Templates/TemplateElement";
 
 const DashboardCard = () => {
   return (
@@ -31,7 +32,8 @@ const DashboardCard = () => {
         {/* -----------------  invoice ----------- */}
 
         <div className="Invoiceprint mt-2 w-[100%]   lg:w-[30%]  border-yellow-700">
-          <Preview />
+          {/* <Preview /> */}
+          <TemplateElement/>
         </div>
       </div>
     </>

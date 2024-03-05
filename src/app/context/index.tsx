@@ -138,3 +138,36 @@ export const templatesdata =[
       skinimg:"/assets/Skinclub.svg"
      }
 ]
+
+export const InvoiceList =[
+     {
+       Image:'/assets/temp.svg',
+       title:'Template'
+     },
+     {
+      Image:'/assets/Layout.svg',
+      title:'Layout'
+    },
+    {
+      Image:'/assets/Assest.svg',
+      title:'Assets'
+    },
+    {
+      Image:'/assets/Color.svg',
+      title:'Color'
+    },
+    {
+      Image:'/assets/Background.svg',
+      title:'Background'
+    },
+    {
+      Image:'/assets/Shapes.svg',
+      title:'Shapes'
+    }, {
+      Image:'/assets/Images.svg',
+      title:'Images'
+    }, {
+      Image:'/assets/Icons.svg',
+      title:'Icons'
+    }
+]
