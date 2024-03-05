@@ -5,9 +5,9 @@ import Image from "next/image";
 const InvoiceListCard = () => {
   return (
     <>
-      <div className="min-h-screen  flex items-center justify-center">
+      <div className=" flex items-center justify-center">
         
-        <div className="border-2 mt-32  w-[100%] sm:w-[70%] lg:w-[50%] bg-[#FFFFFF] lg:shadow-xl m-auto px-2 pt-4 border-gray-300 rounded-xl">
+        <div className="border-2 mt-10  w-[100%] sm:w-[99%] lg:w-[50%] bg-[#FFFFFF] lg:shadow-xl m-auto px-2 pt-4 border-gray-300 rounded-xl">
           <div className="py-4 px-2">
             <Image
               src={"/assets/Skinclub.svg"}
@@ -18,7 +18,7 @@ const InvoiceListCard = () => {
           </div>
 
           <div className="divider  py-2 flex justify-center items-center">
-            <p className="mx-2 text-[.8rem] text-[#4C4D4F] text-start">
+            <p className="mx-2 text-[.8rem] sm:text-[.9rem] text-[#4C4D4F] text-start">
               SUMMERY
             </p>
             <hr className="w-[1000px] border" />

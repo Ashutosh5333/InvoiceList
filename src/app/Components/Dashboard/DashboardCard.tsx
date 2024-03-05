@@ -25,16 +25,16 @@ const DashboardCard = () => {
 
       <div className="Main-DetailContainer   border-black flex flex-col lg:flex-row">
       
-        <div className="Invoice py-2 px-1 border-green-500 w-[100%] lg:w-[70%]  ">  
+        <div className="Invoice py-2 px-1 border-green-500 w-[100%] sm:w-[90%] lg:w-[70%] m-auto  ">  
           <InvoiceList/>
         </div>
 
         {/* -----------------  invoice ----------- */}
 
-        <div className="Invoiceprint mt-2 w-[100%]   lg:w-[30%]  border-yellow-700">
-          {/* <Preview /> */}
+        <div className="Invoiceprint m-auto mt-2 w-[100%]  sm:w-[90%] lg:w-[30%]  border-yellow-700">
           <TemplateElement/>
         </div>
+
       </div>
     </>
   );

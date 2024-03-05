@@ -23,7 +23,7 @@ const InvoiceList = () => {
             <InvoiceListCard/>
         </div>
 
-        <div className=" lg:mt-[19.5%]" />
+        <div className=" lg:mt-[12.7%]" />
         {/*  */}
       </div>
     </>

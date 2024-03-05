@@ -5,12 +5,12 @@ import React from "react";
 export const TemplateElementlist = () => {
   return (
     <>
-      <div className="border-2 py-8 border-black grid grid-cols-2 gap-2">
+      <div className=" py-8 border-black grid grid-cols-2 gap-2">
         {InvoiceList.length > 0 &&
           InvoiceList.map((el, i) => {
             return (
               <div key={i} className="px-2">
-                <div className="border-2 rounded py-2 px-2 flex flex-col gap-0 border-[#afafaf]">
+                <div className="border-2 rounded py-2 sm:py-4  lg:py-2 px-4  lg:px-4 flex flex-col gap-0 border-[#afafaf]">
                   <Image
                     src={el.Image}
                     width={50}
