@@ -10,7 +10,7 @@ export const TemplateElementlist = () => {
           InvoiceList.map((el, i) => {
             return (
               <div key={i} className="px-2">
-                <div className="border-2 rounded py-2 sm:py-4  lg:py-2 px-4  lg:px-4 flex flex-col gap-0 border-[#afafaf]">
+                <div className="border-2 rounded py-2 sm:py-6  lg:py-2 px-4  lg:px-6 flex flex-col gap-0 border-[#babbbe]">
                   <Image
                     src={el.Image}
                     width={50}

@@ -60,7 +60,7 @@ const TemplateElement = () => {
               className="w-full  px-4 sm:px-4 py-12 text-[.4rem] text-[#777777] border
                          sm:text-[.6rem] md:text-[.8rem] border-gray-300 rounded-md "
             />
-            <div className="border-2 relative top-[-1rem] w-[90%] m-auto " />
+            <div className="border border-black relative top-[-1rem] w-[90%] m-auto " />
           </div>
         </div>
 
